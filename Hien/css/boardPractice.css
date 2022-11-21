@@ -1,0 +1,230 @@
+.boardPractice {
+    max-width: 1500px;
+    height: 500px;
+    max-width: 1500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+.backGroundPractice {
+    width: 90%;
+    height: 100%;
+    background-color: #DEF1F9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.backGroundPracticeLeft {
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.showChoosePratice {
+
+    width: 90%;
+    height: 70%;
+    background-color: bisque;
+    margin-bottom: 10px;
+    overflow: auto;
+    background-image: url("../IMG/lotus.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+
+
+}
+
+
+
+
+.practiceShowInList {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(196, 210, 210);
+
+
+
+
+
+}
+
+.boxPractice {
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: #DEF1F9; */
+
+}
+
+.boxPractice tr {
+    width: 100%;
+    height: 100px;
+    /* background-color: #DEF1F9; */
+
+
+
+}
+
+.boxPractice td {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: solid black;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+.detailPractise {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+/* -------------- */
+.move {
+    width: 10%;
+    height: 100%;
+    background-color: rgb(65, 28, 28);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.move div {
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    margin: 5px 0;
+
+}
+
+.img {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(242, 215, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.nameAndAmount {
+    width: 45%;
+    height: 100%;
+    background-color: rgb(205, 198, 198);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nameTop {
+    width: 50%;
+    height: 20%;
+    background-color: rgb(25, 49, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -2px;
+}
+
+.amountBottom {
+    width: 100%;
+    height: 75%;
+    background-color: rgb(117, 144, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.amountBottom .input {
+
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.amountBottom .input input[type="number"] {
+    width: 50px;
+    height: 30px;
+}
+
+.delete {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(88, 82, 82);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete img {
+    width: 35px;
+    height: 35px;
+}
+
+
+
+/* -------------- */
+
+
+
+.activePractice {
+    width: 90%;
+    height: 15%;
+    background-color: rgb(126, 91, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.activePractice button {
+    width: 150px;
+    height: 40px;
+    background-color: bisque;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.backGroundPracticeRight {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(143, 143, 151);
+}

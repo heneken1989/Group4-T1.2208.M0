@@ -1,0 +1,171 @@
+/* anxiety */
+.div1{
+    width: 200px;
+    height: 200px; 
+}
+.problembt1{
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: rgb(27, 128, 191);
+    font-size: 30px;
+    font-weight: bold;
+    color: burlywood;
+    
+
+}
+
+.problembt2{
+    position:absolute;
+    bottom: 50px;
+    left: 390px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: rgb(27, 128, 191);
+    font-size: 30px;
+    font-weight: bold;
+    color: burlywood;
+
+    
+
+}
+.solveanxiety{
+    margin:auto;
+    width: 100%;
+
+}
+.div3{
+    position: relative;
+    margin: auto;
+    width: 1200px;
+}
+
+.problemcont1{
+ background-color: rgba(129,189,197,255); 
+}
+/* stress */
+.div4{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+}
+.solvestress{
+    margin:auto;
+    width: 100%;
+
+}
+.problemcont2{
+    background-color:whitesmoke; 
+   }
+
+   .problembt3{
+    position: absolute;
+    bottom: -0px;
+    left: 410px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    background-color:snow;
+    font-size: 30px;
+    font-weight: bold;
+    color: burlywood;
+    
+
+}
+
+.problembt4{
+    position:absolute;
+    bottom: 00px;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: snow;
+    font-size: 30px;
+    font-weight: bold;
+    color: burlywood;
+
+    
+
+}
+
+/* conflict*/
+.div5{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+}
+.solveconflict{
+    margin:auto;
+    width: 100%;
+
+}
+.problemcont3{
+    background-color:rgba(209,209,207,255); 
+   }
+
+   .problembt5{
+    position: absolute;
+    bottom: -0px;
+    left: 410px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    background-color:snow;
+    font-size: 30px;
+    font-weight: bold;
+    color: burlywood;
+    
+
+}
+
+
+/* nervous*/
+.div6{
+    position: relative;
+    margin: auto;
+    width: 600px;
+}
+.solvenervous{
+    margin:auto;
+    width: 100%;
+
+}
+.problemcont4{
+    background-color:rgba(73,159,164,255); 
+   }
+
+   .problembt6{
+    position: absolute;
+    bottom: 1170px;
+    left: -200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    background-color:rgb(48, 14, 217);
+    font-size: 30px;
+    font-weight: bold;
+    color: burlywood;
+    
+
+}
+
+.problembt7{
+    position:absolute;
+    bottom: 960px;
+    left: -200px;
+    width: 200px;
+    height: 220px;
+    border-radius: 30px;
+    background-color:rgb(48, 14, 217);
+    font-size: 30px;
+    font-weight: bold;
+    color: burlywood;
+
+    
+
+}

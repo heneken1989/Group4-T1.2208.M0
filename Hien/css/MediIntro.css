@@ -1,0 +1,170 @@
+.nav1{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    border:solid black;
+    border-width: 1px 0px 1px 0px;
+    width: 100%;
+}
+.nav1 a{
+
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 15px;
+    color:black;
+    text-decoration: none;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.nav1 a:hover {background-color: #DEF1F9}
+
+.div1{
+    padding:64px 195px 84px 241px;
+    background-color:#DEF1F9 ;
+    font-size: 20px;
+}
+.div2{
+    padding:80px 185px 84px 241px;
+    background-color:#FFF0F5 ;
+    font-size: 20px;
+}
+.div3{
+    padding:41px 243px 345px 241px;
+    background-color:white ;
+    font-size: 20px;
+}
+.span1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.bt{
+    width:200px ;
+    height:50px ;
+    border: solid ;
+    position: fixed;
+    left: 1300px;
+    top: 660px;
+    background-color:  #D9D9D9;
+    border-radius: 20px;
+}
+
+/* table */
+  @media (max-width: 1024px) {
+    .nav1{
+        width: 820px;
+        }        
+    .background {
+        position: relative;
+        width: 100%;
+    }
+    .nav1{
+        width: 100%;
+
+    }
+
+    .div1, .div2 ,.div3{
+        font-size: 20px;
+        text-align: left;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .div3{
+        height: 80%;
+        padding-bottom: 20px;
+    }
+
+/* phone*/
+    @media (max-width: 600px) {
+        .div1, .div2 ,.div3{
+            font-size: 20px;
+            text-align: left;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .div3{
+            height: 80%;
+            padding-bottom: 0px;
+        }
+        .span1{
+            font-size: 30px;
+            margin: auto;
+            
+        }
+        #mydrop{
+            margin: auto;
+            width: 60px;
+        }
+        .nav22{
+            top:-50px
+        }
+            .nav1{
+                margin: auto;
+                display:flex;
+                flex-direction: column;
+                width: 100px;
+                text-align: center;
+                }
+            .nav1 a{
+               margin: auto;
+            }
+    }
+
+
+}
+   /* Phone */
+   @media (max-width: 450px) {
+     .nav1{
+         width: 100px;
+         text-align: center;
+         }
+     .nav1 a{
+        margin: auto;
+     }
+     .background {
+         position: relative;
+         width: 390px;
+     }
+ }
+
+ /* button  */
+ @media (max-width: 1024px) {
+.bt{
+  top: 1000px;
+  left: 600px;
+}}
+@media (max-width: 800px) {
+ .bt{
+    left: 350px;
+    }}
+@media (max-width: 605px) {
+.bt{
+    left: 300px;
+        }
+        #mydrop{
+            margin: auto;
+            width: 60px;
+        }
+    .logo{
+        margin: auto;
+    }}
+@media (max-width: 550px) {
+ .bt{
+    left: 250px;
+        }}
+@media (max-width: 450px) {
+ .bt{
+    top:700px;
+    left: 180px;
+      }
+      #mydrop{
+        
+        margin: auto;
+        width: 60px;
+    }}
+    
+
+
+

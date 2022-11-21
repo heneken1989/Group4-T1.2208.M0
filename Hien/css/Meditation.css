@@ -1,0 +1,608 @@
+.nav1{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    border:solid black;
+    border-width: 1px 0px 1px 0px;
+    width: 100%;
+}
+.nav1 a{
+
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 15px;
+    color:black;
+    text-decoration: none;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.nav1 a:hover {background-color: #DEF1F9}
+
+.nav2{
+    background-color: #5c5757;
+    margin: auto;
+    margin-top: 2px;
+    border:solid black;
+    border-radius: 20px;
+     width: 90%;
+    height: 50px;
+    border-width: 1px 0px 1px 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav2 a{
+    font-family: 'Lato';
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav2 a:hover {background-color: wheat}
+
+.bt{
+    width:200px ;
+    height:50px ;
+    border: solid ;
+    position: fixed;
+    left: 1300px;
+    top: 660px;
+    background-color:  #D9D9D9;
+    border-radius: 20px;}
+
+/* back to top css */
+.scroll{
+    color:#fff;
+    margin-top:100px;
+}
+
+#toTopBtn {
+     position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color: hsla(5,76%,62%,.8);
+    
+}
+
+.js .cd-top--fade-out {
+    opacity: .5;
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s,visibility .3s,background-color .3s;
+}
+
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0,0,0,.05) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: hsla(5,76%,62%,.8);
+    background-color: hsla(var(--cd-color-3-h),var(--cd-color-3-s),var(--cd-color-3-l),0.8);
+}
+
+.height{
+    height:3000px;
+}
+
+
+/* timeline css start */
+.verti-timeline {
+    border-left: 3px dashed #b5b2b0;
+    margin: 0 10px;
+}
+.verti-timeline .event-list {
+    position: relative;
+    padding: 40px 15px 40px;
+    border-top: 3px solid #b5b0b0;
+}
+.verti-timeline .event-list .event-date {
+    position: absolute;
+    right: 0;
+    top: -2px;
+    padding: 12px;
+    color: #fff;
+    border-radius: 0 0 7px 7px;
+    text-align: center;
+}
+.verti-timeline .event-list .event-content {
+    position: relative;
+    border: 2px solid #b0b3b5;
+    border-radius: 7px;
+    text-align: center;
+}
+.verti-timeline .event-list .event-content::before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 75%;
+    top: -42px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-left: 12px double #b0b3b5;
+    border-right: 12px double #b0b3b5;
+}
+.verti-timeline .event-list .timeline-icon {
+    position: absolute;
+    left: -14px;
+    top: -10px;
+}
+.verti-timeline .event-list .timeline-icon i {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.verti-timeline .event-list:last-child {
+    padding-bottom: 0;
+}
+
+.card {
+    border:solid blueviolet;
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 0 13px 0 rgba(15, 15, 226, 0.44);
+    box-shadow: 0 0 13px 0 rgba(11, 11, 226, 0.44);
+}
+.mt-0{
+color: #293a45;
+font-size: 20px;
+font-weight: bold;
+font-family: lato;
+}
+.mb-0{
+    color: #293a45;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: lato;
+    }
+/* time line css end */
+.text-muted{
+    text-align: left;
+}
+.title1{
+    color: rgb(33, 71, 91);
+     font-size: 25px;
+     font-weight: bold;
+     font-family: lato;
+    }
+.content1{
+
+    font-family:lato ;
+    font-size: 20px; 
+    background-color: rgba(247,252,246,255); 
+    height: 100%;
+    padding-top: 10px; 
+    width:90%;
+    margin: auto;
+    text-align: left;
+
+}
+.content2{
+    font-family:lato ;
+    font-size: 20px; 
+}
+.collapse{
+    font-family:lato ;
+    font-size: 20px; 
+
+}
+.cover{
+    margin:auto ;
+    width:100%px ;
+    margin-top: 0px;
+}
+
+.col-lg-12{
+    width: 100%;
+
+}
+.imgcontent1{
+     float:left ;
+     width: 280px;
+     height: 380px;
+
+}
+
+.li1content2img{
+    float:right ;
+    height:270px ;
+}
+.li4collapseimg{
+    float: right;
+}
+
+.show {display: block;}
+
+.col-lg-10{
+    margin: auto;
+}
+
+.charka-ul1-img2{
+   
+    width: 400px;
+}
+
+.chakra-video{
+    width: 100%;
+    height: 350px;
+}
+.chakra-ul2-img1{
+    width:100%;
+    float: left;
+
+}
+.chakra-ul2-img2{
+    width:100%;
+    float: left;
+
+}
+.chakra-ul2-img3{
+    width:70%;
+    float: left;
+}
+
+.chakra-ul3-img1{
+    float: right;
+}
+.chakra-ul3-img2{
+    float:right ;
+    height:600px ;
+}
+.dropbtn img{
+    width: 40px;
+    margin: auto;
+  }
+  .chakra-ul2-img3{
+     width:100%;
+    
+ }
+ .chakra-ul3-img1{
+     float:none;
+     width: 100%;
+ }
+
+
+.mindcontent1{
+    background-color:rgba(254,229,210,255);
+    font-size: 24px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.mind-ul1-img{
+    width:40%;
+    float: left;
+    margin-left: 10px;
+}
+.mind-ul2-img1{
+    width: 100%;
+}
+.mind-ul2-img2{
+    width: 100%;
+}
+.mind-ul3-img1{
+    width: 100%;
+}
+.mind-ul3-img2{
+    width: 100%;
+}
+.mind-video{
+    width: 100%;
+    height: 360px;
+}
+.mind-ul4-img{
+    width: 100%;
+}
+.tran-conten1-img{
+    margin: auto;
+    width: 100%;
+}
+.tran-ul2-img1{
+    width: 100%;
+}
+.tran-video{
+    width: 100%;
+    height: 400px;
+}
+.tran-ul3-img1{
+    width: 100%;
+}
+
+
+
+/* dropdown menu */
+.selectH {
+    display: none;
+
+  }
+  .dropbtn {
+background-color:whitesmoke;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropmenu{
+    width: 40px;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #DEF1F9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: #DEF1F9;
+}
+
+/* responsive */
+/* table */
+  @media (max-width: 1024px) {
+  
+   .cover{
+    margin:auto ;
+    width:100%px ;
+    margin-top: 10px; }
+    .col-lg-12{
+        margin: auto;
+        width: 100%;}
+    .nav1{
+        width: 100%;
+        }
+    .imgcontent1{
+        margin: auto;
+    }
+    .content1{
+        margin:auto ;
+        display: flex;
+        flex-direction:column;
+        text-align:center;
+        width: 100%;
+        height: 100%;
+        font-size: 25px;
+        padding-left: 0px;
+    }
+    .content2{
+        font-size: 25px;
+    }
+    .collapse{
+        font-size: 25px;
+    }
+
+    .top {
+        flex-direction: column;
+        width: 100%;
+
+        
+    }
+    .background {
+        position: relative;
+        width: 100%;
+    }
+    /* chakra  */
+    .charka-ul1-img{
+    margin: auto;
+    width: 100%;
+      
+    }
+    .charka-ul1-img2{
+        margin: auto;
+        width: 100%;
+    }
+    .chakra-conten1{
+        margin-top: 50px;
+        display: flex;
+        flex-direction:column ;
+
+    }
+    .mind-ul1-img{
+        width:60%;}
+}
+@media (max-width: 800px) {
+    .nav2{display: none;}
+    .selectH{
+        display: block; position: relative; top:20px;
+        width:60px;
+        background-color: aquamarine;
+        margin: auto;
+    }
+    .mindcontent1{
+        margin-top: 30px;
+    }
+    .tran-conten1-img{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 605px) {
+   .nav2     { display: none; }
+   .select { display: inline-block; position: relative; left: 50px; bottom: -100px; }
+   .nav1{
+    display:flex;
+    flex-direction: column;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+   }
+   .nav1 a{
+    margin: auto;
+   }
+   #mydrop{
+    width: 60px;
+    margin: auto;
+   }
+   .logo{
+    margin: auto;
+   }
+
+   .cover{
+    margin:auto ;
+    margin-top: 10px; }
+    .col-lg-12{
+        margin: auto;}
+        .content1{
+            margin:auto ;
+            display: flex;
+            flex-direction:column;
+            text-align:center;
+            height: 100%;
+            font-size: 25px;
+            padding-left: 0px;      
+        
+        }
+
+        .selectH{
+            display: block; position: relative; top:20px;
+            width:60px;
+            background-color: aquamarine;
+            margin: auto;
+        
+        }
+        .dropbtn{
+            background-color: aqua;
+            margin: auto;
+        }
+        .mind-ul1-img{
+            width:100%;
+            float: left;}
+    
+     }
+
+
+
+
+
+
+
+
+
+
+
+    /* Phone */
+    @media (max-width: 450px) {
+        .nav2     { display: none; }
+
+        .cover{
+         margin:auto ;
+       
+         margin-top: 10px; }
+         .col-lg-12{
+             margin: auto;}
+         .nav1{
+             width: 100px;
+             text-align: center;
+             }
+         .nav1 a{
+            margin: auto;
+         }
+         .imgcontent1{
+             margin: auto;
+         }
+         .li1content2img{
+            margin: auto;
+            width: 100%;
+         }
+         .li4collapseimg{
+          width: 110%;
+        }
+         .content1{
+             height: 100%;
+             font-size: 25px;
+             padding-left: 0px;      
+         
+         }
+         .content2{
+             font-size: 25px;
+         }
+         .collapse{
+             font-size: 25px;
+         }
+     
+         .background {
+             position: relative;
+           
+         }
+         #mydrop{
+            width: 60px;
+            margin: auto;
+         }
+
+         .charka-ul1-img{
+            width: 80%;
+              
+            }
+
+        }
+@media (min-width: 1140px) {
+    .verti-timeline {
+        margin: 00px 60px;
+    }
+    .verti-timeline .event-list {
+        padding: 40px 90px 60px 40px;
+    }
+}
+@media (max-width: 1140px) {
+    .verti-timeline .event-list .event-date {
+        right: -20px;
+    }
+}
+   
+
+
+
+
+
+
+
+
