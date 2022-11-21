@@ -1,198 +1,135 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Layout</title>
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Podkova" />
-  
-  
-<link rel="stylesheet" href="Khai/css/boardPractice.css" />
-<link rel="stylesheet" href="Khai/css/bigBg.css" />
-<link rel="stylesheet" href="Khai/slide.css" />
-<link rel="stylesheet" href="Khai/css/style1.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="./CSS/bigBg.css" /> -->
+    <link rel="stylesheet" href="../../Phat/Login/css/style.css" />
 
-
-
-<script src="Khai/css/script.js"></script>
- 
-  <style>
-    body{
-      background-color:white
-    }
-  </style>
-
-</head>
-<body>
-
-  <header class="header">
-    <div class="logo">
-      <a class="link" href="">
-        <img src="Khai/Image/IMG Phat/lotus.png" alt="aaaaaaaaaa" />
-        <p class="title">HAPPINESS</p>
-      </a>
-    </div>
-  
-    <div id="mydrop" class="container" onclick="menu()">
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
-    </div>
-  
-    <nav id="mydrop1" class="nav-bar">
-      <ul class="nav22">
-        <li class="tag">
-          <a href="index.html">home</a>
-        </li>
-        <li class="tag">
-          <img src="Khai/Image/IMG Phat/problem.png" alt="" />
-          <a href="Khai/problem.html">problem</a>
-        </li>
-        <li class="tag">
-          <img src="Khai/Image/IMG Phat/meditation.png" alt="" />
-          <a href="Hien/Meditation.html">meditation</a>
-        </li>
-        <li class="tag">
-          <img src="Khai/Image/IMG Phat/aerobic.png" alt="" />
-          <a href="aerobic.html">Aerobic</a>
-        </li>
-        <li class="tag">
-          <a href="Phat/Login/index.html">log in</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <br><br><br><br><br><br><br><br>
-  </nav>
-
-
-  
-    <section>
-      
-      <nav class="phandau">MEDITATION & AEROBIC</nav></div>
-      <div class="slideshow-container">
-      
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="Khai/1.jpg" style="width:100%">
-        <div class="text">Caption Text</div>
-      </div>
-      
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="Khai/2.jpg" style="width:100%">
-        <div class="text">Caption Two</div>
-      </div>
-      
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="Khai/3.jpg" style="width:100%">
-        <div class="text">Caption Three</div>
-      </div>
-      
-      
-      
-      </div>
-      <br>
-      
-      <div style="text-align:center">
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-      </div>
-      <script>let slideIndex = 0;
-        showSlides();
-        
-        function showSlides() {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          slideIndex++;
-          if (slideIndex > slides.length) {slideIndex = 1}    
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-          setTimeout(showSlides, 5000); // Change image every 2 seconds
-        }</script>
-
-
-    </section>
-    <div class="sidebar">
-      
-      <div class="vanban">
-        <img src="Khai/mattroi.png.png"class="mattroi"><br>
-      <h2>For all of life’s moments</h2><hr><br><br>
     
-    <h4>Work stress, sleep problems, relationship woes ,<br>
- we all deal with so much in our day-to-day lives.<br><br>
-  Luckily, there’s HAPPINESS. With guided lessons on meditation,<br>
-aerobic, and simply remembering to breathe,<br>
-it’s help for feeling better.</h4>
-</div>
-
-
-  
-  
-      <div class="hinhanh">
-      <div class="icon-thien">
-      <img src="Khai/thien.png">
-    </div>
-    <h5>is a simple practice available to all, which can reduce stress,<br>
-        increase calmness and clarity and promote happiness</h5>
-  <br>
-  <div class="icon-erobic">
-      <img src="Khai/erobic.png">
-  </div>
-  <h5>is a simple practice available to all, which can reduce stress,
-    increase calmness and clarity and promote happiness</h5>
-      </div>
-      
-      
-<br><br><br>
-</div>
-</body>
-
-<footer class="footer">
-  <div class="background">
-    <div class="top">
-      <div class="logo-footer">
-        <img src="Khai/Image/IMG Phat/lotus.png" alt="" />
-        <p>HAPPINESS</p>
-      </div>
-      <div class="link-footer">
-        <label for="">Follow us</label>
-        <div class="img-footer">
-          <a href=""><img src="Khai/Image/IMG Phat/instagram2.png" alt="" /></a>
-          <a href=""><img src="Khai/Image/IMG Phat/facebook2.png" alt="" /></a>
-          <a href=""><img src="Khai/Image/IMG Phat/twitter.png" alt="" /></a>
+    <link rel="stylesheet" href="../../Phat/Login/css/login2.css" />
+  </head>
+  <body ng-app="myApp">
+    <div ng-controller="HeaderFooter">
+      <!-- <div ng-include="'./Page/header.html'"></div> -->
+      <header class="headerWeb">
+        <div class="logo">
+          <a class="link" href="">
+            <img src="./IMG/lotus.png" alt="" />
+            <p class="title">HAPPINESS</p>
+          </a>
         </div>
-      </div>
-      <div class="link-footer">
-        <label for="">Contact us</label>
-        <div class="img-footer">
-          <a href=""><img src="Khai/Image/IMG Phat/address.png" alt="" /></a>
-          <a href=""><img src="Khai/Image/IMG Phat/email.png" alt="" /></a>
-          <a href=""><img src="Khai/Image/IMG Phat/support.png" alt="" /></a>
-        </div>
-      </div>
-    </div>
-    <div class="bottom">
-      <div class="line"></div>
-      <div class="copy">
-        <p>COPYRIGHT &copy; HAPPINESS</p>
-        <p>-</p>
-        <p>ALL RIGHTS RESERVED</p>
-      </div>
-    </div>
-  </div>
-</footer>
 
+        <nav class="nav-bar">
+          <div class="logoAdd">
+            <a class="link" href="">
+              <img src="./IMG/lotus.png" alt="" />
+              <p class="title">HAPPINESS</p>
+            </a>
+          </div>
+          <ul class="nav">
+            <li class="tag">
+              <a href="">home</a>
+            </li>
+            <li class="tag">
+              <img src="./IMG/problem.png" alt="" />
+              <a href="">problem</a>
+            </li>
+            <li class="tag">
+              <img src="./IMG/meditation.png" alt="" />
+              <a href="">meditation</a>
+            </li>
+            <li class="tag">
+              <img src="./IMG/aerobic.png" alt="" />
+              <a href="">aerobic</a>
+            </li>
+            <li class="tag">
+              <a href="#/!">log in</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="headerMobile">
+        <header class="cd-header">
+          <div class="header-wrapper">
+            <div class="nav-but-wrap">
+              <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="navAnimation">
+          <div class="nav__content">
+            <ul class="nav__list">
+              <li class="nav__list-item active-nav">
+                <a href="#/!" class="hover-target">home</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#!problem" class="hover-target">problem</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#!meditation" class="hover-target">meditation</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#!aerobic" class="hover-target">aerobic</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#!login" class="hover-target">log in</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cursor" id="cursor"></div>
+        <div class="cursor2" id="cursor2"></div>
+        <div class="cursor3" id="cursor3"></div>
+      </div>
+
+      <section ng-view></section>
+
+      <div ng-include="'../../Page/footer.html'"></div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"
+    ></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- ---------------- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-drag-and-drop-lists/1.4.0/angular-drag-and-drop-lists.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-sanitize.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+
+    <script src="../../Phat/Login/JS/app.js"></script>
+  </body>
 </html>
