@@ -1,5 +1,5 @@
 var app = angular.module("myApp", [
-  "ngRoute","ngMessages"
+  "ngRoute","ngMessages","dndLists"
 ]);
 app.config([
   "$routeProvider",
