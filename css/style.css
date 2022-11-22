@@ -30,7 +30,7 @@
     top: 0;
     left: 0;
     width: 50px;
-    z-index: 1000;
+    z-index: 10;
 
 
 
@@ -170,7 +170,7 @@ footer .background {
 
     background-color: #DEF1F9;
     width: 100vw;
-    max-height: 200px;
+    max-height: 500px;
     margin: 10px;
     border-radius: 20px;
 
@@ -321,12 +321,18 @@ footer .top {
         display: block;
     }
 
+    .menu-icon {
+
+        top: 0px;
+    }
+
 
 }
 
 @media (max-width: 540px) {
     .menu-icon {
         left: -50px;
+
     }
 }
 
@@ -375,7 +381,7 @@ footer .top {
     }
 
     .menu-icon {
-        left: -100px;
+        left: -10px;
     }
 }
 
@@ -387,7 +393,7 @@ footer .top {
 
 
     .menu-icon {
-        left: -125px;
+        left: 0px;
     }
 }
 
@@ -511,18 +517,18 @@ footer .top {
 
 /* --footer-- */
 
-/* footer {
+footer {
     position: relative;
 }
 
 footer .background {
     position: relative;
-    top: 200px;
-} */
+    top: 10px;
+}
 
 /* } */
-*/
-/* @media (max-width:500px) {
+
+@media (max-width:500px) {
 
     footer .top {
         flex-direction: column;
@@ -553,7 +559,7 @@ footer .background {
         flex-direction: column;
 
     }
-} */
+}
 
 /* ---------- */
 /* loginTable---------------------------- */
@@ -711,6 +717,7 @@ footer .background {
     padding-top: 15px;
     margin-top: 26px;
     transition: all 0.3s ease-out;
+
 }
 
 .menu-icon {
@@ -722,6 +729,7 @@ footer .background {
     display: block;
     margin-left: 500px;
     margin-top: 50px;
+    margin-top: 65px;
 
 }
 
