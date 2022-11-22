@@ -1765,7 +1765,7 @@ app.controller("customCtrl", function ($scope, $rootScope) {
       var add = index;
       var flagCount = 0;
       if ($rootScope.listPractice.length == 0) {
-        $rootScope.listPractice.push($rootScope.products[add]);f
+        $rootScope.listPractice.push($rootScope.products[add]);
         flag = true;
       } else {
         for (var i = 0; i < $rootScope.listPractice.length; i++) {
