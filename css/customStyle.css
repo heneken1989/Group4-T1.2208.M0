@@ -745,7 +745,7 @@
 
 }
 
-.btnListShowStar .active {
+.btnListShowStar.active {
     width: 50px;
     height: 50px;
     display: flex;
@@ -796,7 +796,7 @@
 
 }
 
-.btnListChoose .active {
+.btnListChoose.active {
     position: absolute;
     top: 180px;
     left: 50%;
@@ -817,7 +817,7 @@
 
 }
 
-.btnListChoose .active1 {
+.btnListChoose.active1 {
     position: absolute;
     top: 360px;
     left: 80%;
@@ -953,7 +953,7 @@
     }
 
 
-    .dragGrid.card-carousel {
+    .dragGrid .card-carousel {
         left: -100px;
         margin-top: 20px;
     }
@@ -976,7 +976,7 @@
         left: 0px;
     }
 
-    .dragGrid.card-carousel {
+    .dragGrid .card-carousel {
         left: -10px;
         margin-top: 20px;
 
@@ -1005,7 +1005,7 @@
         left: 50px;
     }
 
-    .textDisplayValue.textCard {
+    .textDisplayValue .textCard {
         margin-left: -10px;
 
     }
