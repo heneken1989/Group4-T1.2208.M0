@@ -51,7 +51,7 @@ app.controller("HeaderFooter", function ($scope) {
   // =====================================
 });
 app.run(function ($rootScope, $http) {
-  $http.get("../JSON/product.json").then(function (rsp) {
+  $http.get("JSON/product.json").then(function (rsp) {
     $rootScope.products = rsp.data.product;
     $rootScope.listPractice = [];
     $rootScope.saveValue = [];
