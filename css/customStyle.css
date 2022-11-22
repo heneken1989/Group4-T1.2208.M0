@@ -1,7 +1,7 @@
 .PagePractice {
     background-color: #def9fc;
 
-    height: 100vh;
+    height: 110vh;
     margin: auto;
 
 }
@@ -95,15 +95,33 @@
 .PagePractice .content {
     position: absolute;
     min-height: fit-content;
-    top: 300px;
+    top: 250px;
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 0px;
+    padding: 0;
     border: 1px solid #ffffff;
     border-radius: 15px;
     background: #ffffff;
-    margin: auto
+    margin: auto;
+
+}
+
+.PagePractice .content.active2 {
+    position: absolute;
+    min-height: fit-content;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    background: #ffffff;
+    margin: auto;
+    max-width: 600px;
+    top: 200px;
+
 }
 
 .PagePractice [type="radio"]:checked~label {
@@ -132,6 +150,7 @@
     line-height: 30px;
     z-index: 2;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    display: none;
 }
 
 .listCardPractice img {
@@ -163,11 +182,13 @@
 } */
 
 .dragGrid .containerGrid {
+
     overflow: hidden;
     padding: 40px;
     margin-top: 1em;
     display: flex;
     flex-direction: row;
+
 
     /* background: rgba(0, 0, 0, .1) */
 }
@@ -184,7 +205,7 @@
     height: var(--card-height);
     min-width: var(--carousel-min-width);
     transition: filter .3s ease;
-    margin-left: 57px;
+    /* margin-left: 57px; */
 }
 
 @media screen and (max-width: 640px) {
@@ -263,8 +284,8 @@
     border-radius: 25px;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
     transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    top: 10px;
-    left: 45px;
+    top: -8px;
+    left: 20px;
     /* margin-left: 100px; */
     /* z-index: 11; */
 
@@ -361,6 +382,11 @@
 
 }
 
+
+
+
+
+
 .filterPracticeCard .filterAll {
     width: 110px;
     text-align: center;
@@ -369,8 +395,9 @@
     height: fit-content;
     color: black;
     border: solid;
-
-
+    position: relative;
+    top: -5px;
+    z-index: 2;
 }
 
 .filterPracticeCard .filterAll:hover {
@@ -385,6 +412,8 @@
     align-items: center;
     width: 110px;
     margin-top: -75px;
+    position: relative;
+    z-index: 2;
 
 }
 
@@ -417,12 +446,12 @@
 
 }
 
-.getDataItemFilter:hover {
+/* .getDataItemFilter:hover {
 
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: #def9fc;
 
-}
+} */
 
 
 
@@ -431,7 +460,8 @@
 
 .showChoosePractice {
     padding: 10px 0;
-
+    position: relative;
+    left: 40px;
     width: 50%;
     min-height: 350px;
     background-color: rgb(255, 255, 255);
@@ -450,6 +480,9 @@
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
+    border: solid;
+    margin-top: 50px;
+    /* margin-bottom: ; */
 
 
 }
@@ -461,10 +494,11 @@
 
 .sortable-card {
     padding: 10px 0;
-    width: 100%;
+    width: 150%;
     height: 10px;
-    margin: 10px 0;
+    /* margin: 10px 0px; */
     width: fit-content;
+    margin: auto;
 
 }
 
@@ -473,10 +507,13 @@
     width: 100%;
     margin: 5px 0;
     border-radius: 15px;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 5px;
     background: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* margin: auto; */
+    list-style: none;
+
 }
 
 
@@ -629,12 +666,38 @@
 } */
 
 .backGroundPracticeRight {
-    width: 80vw;
-    height: 100vh;
-    margin: auto;
-
+    position: relative;
+    top: 50px;
+    width: 90%;
+    /* height: 10%; */
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    max-height: 15%;
     display: none;
+    /* z-index: 1; */
+    min-height: 200px;
+
+
+
 }
+
+@media screen and (max-width: 1000px) {
+    div.interval-timer div.timer-menu div.timer-list {
+        width: 75%;
+    }
+
+    div.interval-timer div.timer-menu div.timer-restart,
+    div.interval-timer div.timer-menu div.timer-next {
+        width: 12.5%;
+    }
+}
+
+/* @media screen and (max-width: px) {
+.backGroundPracticeRight {
+    margin-top: 100px;
+}
+} */
 
 
 
@@ -649,6 +712,7 @@
     justify-content: center;
 
 
+
 }
 
 /* ======================== */
@@ -660,6 +724,8 @@
     width: 100px;
     border-radius: 15px;
     padding: 10px;
+    position: relative;
+    top: -25px;
 
 }
 
@@ -669,10 +735,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    position: absolute;
+    top: 350px;
     border-radius: 15px;
     outline: none;
     z-index: 2;
+    left: 70px;
+
+
+}
+
+.btnListShowStar.active {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 172px;
+    border-radius: 15px;
+    outline: none;
+    z-index: 2;
+    left: 35%;
+
 
 }
 
@@ -686,24 +771,68 @@
     border-radius: 15px;
     outline: none;
     background-color: #d0bdd9;
-    ;
+    display: none;
+
 }
 
 .btnListChoose {
-    position: relative;
-    top: 100px;
-
+    position: absolute;
+    top: 450px;
+    left: 70px;
     width: 50px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+
     border-radius: 15px;
     outline: none;
     /* background: #f8f1fb; */
 
     z-index: 2;
+    display: none;
+
+
+
+}
+
+.btnListChoose.active {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    outline: none;
+    /* background: #f8f1fb; */
+
+    z-index: 2;
+    display: none;
+
+
+
+}
+
+.btnListChoose.active1 {
+    position: absolute;
+    top: 360px;
+    left: 80%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    outline: none;
+    /* background: #f8f1fb; */
+
+    z-index: 2;
+    display: none;
 
 
 
@@ -719,6 +848,7 @@
     border-radius: 15px;
     outline: none;
     background-color: #d0bdd9;
+    display: none;
 
 
 }
@@ -754,4 +884,486 @@
     color: #fff;
 
 
+}
+
+@media (max-width:1500px) {
+    .btnListShowStar {
+
+        left: 100px;
+    }
+
+    .btnListChoose {
+
+        left: 100px;
+    }
+}
+
+@media (min-width:1100px) {
+    .btnListShowStar {
+
+        left: 80px;
+    }
+
+    .btnListChoose {
+
+        left: 80px;
+    }
+}
+
+@media (max-width: 700px) {
+    .filterPracticeCard {
+
+        display: flex;
+        flex-direction: row;
+        margin-top: -220px;
+        margin-left: -120px;
+    }
+
+    .filterCardPractice {
+
+        display: flex;
+        flex-direction: row
+    }
+
+    .listCardFilter {
+        display: flex;
+        flex-direction: row
+    }
+
+    .getDataItemFilter {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .textDisplayValue {
+        display: flex;
+        flex-direction: row;
+        margin-top: -15px;
+        margin-left: 200px;
+
+    }
+
+    .textDisplayValue .textCard {
+
+        display: flex;
+        margin-left: -20px;
+        margin-top: -10px;
+
+    }
+
+
+    .dragGrid .card-carousel {
+        left: -100px;
+        margin-top: 20px;
+    }
+
+    .filterCardPractice {
+        width: 110px;
+    }
+}
+
+@media (max-width: 588px) {
+    .textDisplayValue .textCard {
+        margin-left: 20px;
+
+    }
+
+    .filterPracticeCard .filterAll {
+        width: 50px;
+
+        z-index: 2;
+        left: 0px;
+    }
+
+    .dragGrid .card-carousel {
+        left: -10px;
+        margin-top: 20px;
+
+
+    }
+
+    .filterCardPractice {
+        width: 90px;
+    }
+}
+
+@media (max-width: 536px) {
+    .dragGrid .card-carousel {
+        left: -30px;
+
+
+    }
+
+    .btnListShowStar {
+
+        left: 50px;
+    }
+
+    .btnListChoose {
+
+        left: 50px;
+    }
+
+    .textDisplayValue .textCard {
+        margin-left: -10px;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .btnListShowStar {
+
+        left: 50px;
+    }
+
+    .btnListChoose {
+
+        left: 50px;
+    }
+}
+
+
+/* ============================btnChang================ */
+
+
+
+@media (max-width: 485px) {
+    .dragGrid .card-carousel {
+        left: -30px;
+        margin-top: 30px;
+        top: 45px;
+        margin-bottom: 10px;
+
+
+    }
+
+    .btnListShowStar {
+        top: 238px;
+        left: 170px;
+    }
+
+    .btnListChoose {
+        top: 248px;
+        left: 270px;
+    }
+
+    .filterPracticeCard .filterAll {
+        width: 50px;
+
+        z-index: 2;
+        left: 10px;
+
+    }
+
+    .textDisplayValue .textCard {
+        margin-left: -30px;
+
+    }
+
+    .filterCardPractice {
+        width: 60px;
+    }
+}
+
+/* @media (max-width: 440px) {
+
+
+    .filterPracticeCard .filterAll {
+        width: 50px;
+
+        left: 50px;
+        top: 40px;
+    }
+
+} */
+
+/* =========================================================== */
+@media (max-width: 395px) {
+    .dragGrid .card-carousel {
+        left: -20px;
+        margin-top: 30px;
+
+
+        --carousel-min-width: 400px;
+    }
+
+    .filterPracticeCard .filterAll {
+        top: -10px;
+    }
+
+    .textDisplayValue .textCard {
+
+        margin-top: -20px;
+        margin-left: -50px;
+
+    }
+
+    .btnListShowStar {
+        top: 235px;
+        left: 160px;
+    }
+
+    .btnListChoose {
+        top: 245px;
+        left: 270px;
+    }
+
+    /* .cd-header {
+        display: none;
+        navigation  
+    } */
+
+    .filterCardPractice {
+        width: 60px;
+    }
+}
+
+
+/* ============================================================================ */
+@media (max-width: 370px) {
+
+    .dragGrid .card-carousel {
+        left: -20px;
+
+    }
+
+    .filterPracticeCard .filterAll {
+        top: -15px;
+    }
+
+    .textDisplayValue .textCard {
+        margin-left: -60px;
+
+
+    }
+
+    /* .cd-header {
+        display: none;
+    } */
+
+    .filterCardPractice {
+        width: 50px;
+    }
+}
+
+@media (max-width: 340px) {
+
+    .dragGrid .card-carousel {
+        left: -20px;
+
+    }
+
+    .btnListShowStar {
+        top: 230px;
+        left: 140px;
+    }
+
+    .btnListChoose {
+        top: 240px;
+        left: 220px;
+    }
+
+    .filterPracticeCard .filterAll {
+        top: -15px;
+    }
+
+    .textDisplayValue .textCard {
+        margin-left: -75px;
+
+
+    }
+
+
+    /* .cd-header {
+        display: none;
+    } */
+
+    .filterCardPractice {
+        width: 50px;
+    }
+}
+
+@media (max-width: 330px) {
+
+    .dragGrid .card-carousel {
+        left: -17px;
+
+    }
+
+    .btnListShowStar {
+        top: 229px;
+        left: 120px;
+    }
+
+    .btnListChoose {
+        top: 235px;
+        left: 200px;
+    }
+
+    .filterPracticeCard .filterAll {
+        top: -15px;
+    }
+
+    .textDisplayValue .textCard {
+        margin-left: -75px;
+
+
+    }
+
+    /* .cd-header {
+        display: none;
+    } */
+
+    .filterCardPractice {
+        width: 50px;
+    }
+}
+
+/* ==========================================page2 */
+@media (max-width: 965px) {
+    .showChoosePractice {
+        left: -10px;
+        width: 60%;
+
+    }
+
+    /* .buttonTimeList {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    } */
+}
+
+@media (max-width: 810px) {
+
+    /* .showChoosePractice {
+        left: -10px;
+        width: 60%;
+       
+    } */
+    .outSide {
+        width: 90%;
+    }
+
+    .delete img {
+        position: relative;
+        left: 30px;
+    }
+
+    .img img {
+        display: none;
+    }
+
+    .move {
+        margin-right: 10px;
+    }
+
+    .nameAndAmount {
+        margin-left: 10px;
+    }
+
+    /* .buttonTimeList {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    } */
+}
+
+@media (max-width: 485px) {
+    .move div {
+        width: 20px;
+        margin-left: -5px;
+        margin: 2px 0;
+
+    }
+
+
+    .nameAndAmount {
+        margin-left: -10px;
+    }
+
+    .delete {
+        position: relative;
+        left: -2px;
+        top: -35px;
+        margin-left: -10px;
+
+    }
+
+    .delete img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .amountBottom .input input[type="number"] {
+        width: 40px;
+        height: 30px;
+
+    }
+
+    .buttonTimeList {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:338px) {
+    .showChoosePractice {
+        width: 200px;
+        left: 0px;
+    }
+
+    .buttonTimeList {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+}
+
+/* ===============================page3=========== */
+@media (max-width:392px) {
+    .btnListChoose.active1 {
+        top: 360px;
+        left: 75%
+    }
+}
+
+@media (max-width:1000px) {
+    .btnListChoose.active1 {
+        top: 360px;
+        left: 73%
+    }
+}
+
+@media (max-width:1000px) {
+    .btnListChoose.active1 {
+        top: 360px;
+        left: 73%
+    }
+}
+
+@media (max-width:2000px) {
+    .btnListChoose.active1 {
+        top: 360px;
+        left: 73%
+    }
+}
+
+@media (min-width:1050px) {
+    .btnListChoose.active1 {
+        top: 360px;
+        left: 73%
+    }
+}
+
+@media (min-width:1440px) {
+    .btnListChoose.active1 {
+        top: 500px;
+        left: 65%
+    }
+}
+
+@media (min-width:2560px) {
+    .btnListChoose.active1 {
+        top: 500px;
+        left: 58%
+    }
 }
