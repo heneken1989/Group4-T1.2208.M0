@@ -1466,7 +1466,7 @@ app.controller("customCtrl", function ($scope, $rootScope) {
                   </div>
                 </div>
                 <div class="delete">
-                  <img class="delPracticeChoose"  data-index="${k}" src="../IMG/close.png" alt="" />
+                  <img class="delPracticeChoose"  data-index="${k}" src="IMG/close.png" alt="" />
                 </div>
               </div></li>`;
       });
