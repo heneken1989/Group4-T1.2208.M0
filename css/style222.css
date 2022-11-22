@@ -188,8 +188,9 @@ div.interval-timer {
     width: 100%;
     color: #0F0F0F;
     font-family: HelveticaNeue-Light, Arial, Helvetica, Geneva, sans-serif;
-    height: 100%;
-    max-height: 325px;
+    height: 50%;
+    max-height: 150px;
+    min-height: 300px;
     text-align: center;
     padding: 0px;
     margin: 0 auto;
@@ -201,7 +202,28 @@ div.interval-timer {
     vertical-align: top;
     position: relative;
     cursor: default;
+    max-width: 1000px;
+
+    /* margin-top: 100px; */
+
+    top: 120px;
+
+
+    /* overflow-x: hidden; */
+
+
+    /* align-items: center; */
+
+
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    display: none;
 }
+
+/* div.interval-timer::-webkit-scrollbar {
+    display: none;
+} */
 
 div.interval-timer div {
     box-sizing: border-box;
@@ -333,19 +355,29 @@ div.interval-timer div.timer-menu div.timer-next {
     div.interval-timer div.timer-countdown {
         line-height: 150px;
     }
+
+    div.curr-gif {
+        height: 117px;
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 560px) {
     div.interval-timer div.timer-countdown {
         font-size: 120px !important;
     }
+
+    div.curr-gif {
+        height: 187px;
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 480px) {
 
     div.curr-gif {
-        height: 240px;
-        width: 320px;
+        height: 187px;
+        width: 250px;
     }
 
     div.curr-gif2 {
@@ -387,6 +419,50 @@ div.interval-timer div.timer-menu div.timer-next {
     }
 }
 
+@media screen and (max-width: 500px) {
+    div.curr-gif {
+        height: 187px;
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    div.curr-gif {
+        height: 187px;
+        width: 250px;
+    }
+
+
+}
+
+@media screen and (max-width: 410px) {
+    div.curr-gif {
+        height: 187px;
+        width: 250px;
+    }
+
+
+}
+
+@media screen and (max-width: 385px) {
+    div.curr-gif {
+        height: 187px;
+        width: 250px;
+    }
+
+
+}
+
+@media screen and (max-width: 325px) {
+    div.curr-gif {
+        height: 157px;
+        width: 210px;
+    }
+
+
+}
+
 @media screen and (max-width: 240px) {
     div.interval-timer div.timer-countdown {
         font-size: 50px !important;
@@ -405,7 +481,7 @@ div.interval-timer div.timer-menu div.timer-next {
     }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
     div.curr-gif {
         height: 200px;
         width: 250px;
@@ -415,7 +491,7 @@ div.interval-timer div.timer-menu div.timer-next {
         height: 200px;
         width: 250px;
     }
-}
+} */
 
 @media screen and (max-width: 250px) {
     div.curr-gif {
@@ -426,5 +502,31 @@ div.interval-timer div.timer-menu div.timer-next {
     div.curr-gif2 {
         height: 120px;
         width: 150px;
+    }
+}
+
+
+
+/* @media (max-height: 800px) {
+    div.interval-timer {
+        margin-top: -200px;
+    }
+
+    div.curr-gif {
+        height: 137px;
+        width: 250px;
+    }
+} */
+
+@media (max-height: 660px) {
+    div.interval-timer {
+        margin-top: -300px;
+    }
+}
+
+@media (max-height: 1440px) {
+    div.curr-gif {
+        height: 197px;
+        width: 250px;
     }
 }
