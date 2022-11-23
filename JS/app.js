@@ -952,7 +952,7 @@ app.controller("customCtrl", function ($scope, $rootScope) {
                   <div class="wrapperPractice">
                     <div class="containerPractice">
                       <div class="topImgPracitceCard">
-                        <img ng-src="${v.thumb}" alt="" />
+                        <img src="${v.thumb}" alt="" />
                       </div>
                       <div class="bottomImgPracitceCard">
                         <div class="leftImgPracitceCard" >
