@@ -8,7 +8,7 @@
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Podkova" />
   <link rel="stylesheet" href="css/problem.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="../Hien/css/menu.css" />
 <link rel="stylesheet" href="css/boardPractice.css" />
 <link rel="stylesheet" href="css/bigBg.css" />
 <link rel="stylesheet" href="conflicting.css" />
@@ -17,39 +17,39 @@
   </style>
 
 </head>
-<body>
-
-    <!-- Phat menu -->
-    <header class="header">
+<body ng-app="myApp">
+  <div ng-controller="HeaderFooter">
+    <!-- <div ng-include="'./Page/header.html'"></div> -->
+    <header class="headerWeb">
       <div class="logo">
         <a class="link" href="">
-          <img src="Image/IMG Phat/lotus.png" alt="aaaaaaaaaa" />
+          <img src="Image/IMG Phat/lotus.png" alt="" />
           <p class="title">HAPPINESS</p>
         </a>
       </div>
-    
-      <div id="mydrop" class="container" onclick="menu()">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </div>
-    
-      <nav id="mydrop1" class="nav-bar">
+
+      <nav class="nav-bar">
+        <div class="logoAdd">
+          <a class="link" href="">
+            <img src="Image/IMG Phat/lotus.png" alt="" />
+            <p class="title">HAPPINESS</p>
+          </a>
+        </div>
         <ul class="nav22">
           <li class="tag">
-            <a href="../index.html">home</a>
+            <a href="../../index.html">home</a>
           </li>
           <li class="tag">
             <img src="Image/IMG Phat/problem.png" alt="" />
-            <a href="problem.html">problem</a>
+            <a href="../Khai/problem.html">problem</a>
           </li>
           <li class="tag">
             <img src="Image/IMG Phat/meditation.png" alt="" />
-            <a href="../Hien/Meditation.html">meditation</a>
+            <a href="../../Hien/Meditation.html">meditation</a>
           </li>
           <li class="tag">
             <img src="Image/IMG Phat/aerobic.png" alt="" />
-            <a href="../aerobic.html">aerobic</a>
+            <a href="../../aerobic.html">aerobic</a>
           </li>
           <li class="tag">
             <a href="../Phat/Login/index.html">log in</a>
@@ -57,6 +57,46 @@
         </ul>
       </nav>
     </header>
+    <div class="headerMobile">
+      <header class="cd-header">
+        <div class="header-wrapper">
+          <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+              <span class="menu-icon__line menu-icon__line-left"></span>
+              <span class="menu-icon__line"></span>
+              <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="navAnimation">
+        <div class="nav__content">
+          <ul class="nav__list">
+            <li class="nav__list-item " >
+              <a href="../../index.html" class="hover-target">home</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="../Khai/problem.html" class="hover-target">problem</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="Meditation.html" class="hover-target">meditation</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="../aerobic.html" class="hover-target">aerobic</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="../Phat/Login/index.html" class="hover-target">log in</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cursor" id="cursor"></div>
+      <div class="cursor2" id="cursor2"></div>
+      <div class="cursor3" id="cursor3"></div>
+    </div>
+  </div>
 
 
   
@@ -112,5 +152,22 @@
     </div>
   </div>
 </footer>
-<script src="Meditation.js"></script>
+<script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"
+></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<!-- ---------------- -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-drag-and-drop-lists/1.4.0/angular-drag-and-drop-lists.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-sanitize.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+<script src="../Hien/menu.js"></script>
 </html>
