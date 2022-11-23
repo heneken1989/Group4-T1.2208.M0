@@ -2,134 +2,214 @@
     "product": [
         {
             "id": 0,
-            "name": "around-the-worlds",
-            "img": "IMG/arm-circles-exercise-illustration.jpg",
-            "thumb": "IMG/arm-swings-exercise-illustration resize.gif",
-            "texts": "around the worlds",
-            "category": "prac1",
+            "name": "asymmetrical-push-up",
+        "thumb": "IMG/asymmetrical-push-up.gif",
+            "text": "around the worlds",
+            "category": "Chest",
             "sets": 0,
-            "reps": 0,
-            "benefit": "abs"
+            "reps": 5,
+            "benefit": "reduce stress"
         },
         {
             "id": 1,
             "name": "pilates-swimming",
-            "img": "IMG/arm-circles-exercise-illustration.jpg",
-            "thumb": "IMG/addempty.png",
+            "thumb": "IMG/pilates-swimming.gif",
             "text": "pilates swimming",
-            "category": "prac1",
+            "category": "Chest",
             "sets": 0,
-            "reps": 0
+            "reps": 5,
+            "benefit": "reduce stress"
         },
         {
             "id": 2,
-            "name": "value4",
-            "img": "IMG/arm-circles-exercise-illustration.jpg",
-            "thumb": "IMG/lotus.png",
-            "text": "a",
-            "category": "prac1",
+            "name": "ankle-tap-push-ups",
+            "thumb": "IMG/ankle-tap-push-ups.gif",
+            "text": "ankle-tap-push-ups",
+            "category": "Chest",
             "sets": 0,
-            "reps": 0
+            "reps": 5,
+            "benefit": "reduce stress"
+            
         },
         {
             "id": 3,
-            "name": "value5",
-            "img": "IMG/arm-circles-exercise-illustration.jpg",
-            "thumb": "IMG/arm-swings-exercise-illustration resize.gif",
-            "text": "adasdfa",
-            "category": "prac1",
+            "name": "bear-walk",
+            "thumb": "IMG/bear-walk.gif",
+            "text": "bear-walk",
+            "category": "Chest",
             "sets": 0,
-            "reps": 0
+            "reps": 5,
+            "benefit": "reduce stress"
         },
         {
             "id": 4,
-            "name": "value6",
-            "thumb": "IMG/arm-swings-exercise-illustration resize.gif",
-            "category": "prac4",
+            "name": "arm-circles",
+            "thumb": "IMG/arm-circles.gif",
+            "text":"arm-circles",
+            "category": "Chest",
             "sets": 0,
-            "reps": 0
+            "reps": 5,
+            "benefit": "reduce stress"
         },
         {
             "id": 5,
-            "name": "value7",
-            "thumb": "IMG/lotus.png",
-            "category": "prac2",
+            "name": "butterfly-dips",
+            "thumb": "IMG/butterfly-dips.gif",
+             "text":"butterfly-dips",
+            "category": "Biceps",
             "sets": 0,
-            "reps": 0
+            "reps": 5,
+            "benefit": "reduce stress"
         },
         {
             "id": 6,
-            "name": "value8",
-            "thumb": "IMG/arm-swings-exercise-illustration resize.gif",
-            "category": "prac4",
+            "name": "biceps-stretch",
+            "thumb": "IMG/biceps-stretch.gif",
+             "text":"biceps-stretch",
+            "category": "Biceps",
             "sets": 0,
-            "reps": 0
+            "reps": 5,
+            "benefit": "reduce stress"
         },
         {
             "id": 7,
-            "name": "value9",
-            "thumb": "IMG/arm-swings-exercise-illustration resize.gif",
-            "category": "prac3",
+            "name": "bicep-curls",
+            "thumb": "IMG/bicep-curls.gif",
+             "text":"bicep-curls",
+            "category": "Biceps",
             "sets": 0,
-            "reps": 0
+            "reps": 5,
+            "benefit": "reduce stress"
         },
         {
             "id": 8,
-            "name": "value10",
-            "thumb": "IMG/lotus.png",
-            "category": "prac3",
+            "name": "bicycle-crunches",
+            "thumb": "IMG/bicycle-crunches.gif",
+             "text":"bicycle-crunches",
+            "category": "Abs",
             "sets": 0,
-            "reps": 0
+            "reps": 5,
+            "benefit": "reduce stress"
         },
         {
             "id": 9,
-            "name": "value11",
-            "thumb": "IMG/arm-swings-exercise-illustration resize.gif",
-            "category": "prac4",
+            "name": "boat-twist",
+            "thumb": "IMG/boat-twist.gif",
+             "text":"boat-twist",
+            "category": "Abs",
             "sets": 0,
-            "reps": 0
+            "reps": 5,
+            "benefit": "reduce stress"
         },
         {
             "id": 10,
-            "name": "value12",
-            "thumb": "IMG/arm-swings-exercise-illustration resize.gif",
-            "category": "prac1",
+            "name": "balance-chop",
+            "thumb": "IMG/balance-chop.gif",
+             "text":"balance-chop",
+            "category": "Abs",
             "sets": 0,
-            "reps": 0
+            "reps": 5,
+            "benefit": "reduce stress"
         },
         {
             "id": 11,
-            "name": "value13",
-            "thumb": "IMG/arm-swings-exercise-illustration resize.gif",
-            "category": "prac4",
+            "name": "basketball-shots",
+            "thumb": "IMG/basketball-shots.gif",
+              "text":"basketball-shots",
+            "category": "Legs",
             "sets": 0,
-            "reps": 0
+            "reps": 5,
+            "benefit": "reduce stress"
         },
         {
             "id": 12,
-            "name": "value14",
-            "thumb": "IMG/arm-swings-exercise-illustration resize.gif",
-            "category": "prac4",
+            "name": "advanced-bridge",
+            "thumb": "IMG/advanced-bridge.gif",
+              "text":"advanced-bridge",
+            "category": "Legs",
             "sets": 0,
-            "reps": 0
+            "reps": 5,
+            "benefit": "reduce stress"
         },
         {
             "id": 13,
-            "name": "value15",
-            "thumb": "IMG/lotus.png",
-            "category": "prac4",
-            "text": "dfgjsdlfjl",
+            "name": "ankle-hops",
+            "thumb": "IMG/ankle-hops.gif",
+            "category": "Legs",
+            "text": "ankle-hops",
             "sets": 0,
-            "reps": 0
+            "reps": 5,
+            "benefit": "reduce stress"
         },
         {
             "id": 14,
-            "name": "value16",
-            "thumb": "IMG/lotus.png",
-            "category": "prac4",
-            "text": "<p>sdjfjjklsdf</p><p>lkdkdsjflksdf</p>",
+            "name": "ankle-circles",
+            "thumb": "IMG/ankle-circles.gif",
+            "category": "Legs",
+            "text": "ankle-circles",
             "sets": 0,
-            "reps": 0
-        }
+            "reps": 5,
+            "benefit": "reduce stress"
+        },
+         {
+            "id": 15,
+            "name": "burpees",
+            "thumb": "IMG/burpees.gif",
+            "category": "Legs",
+            "text": "burpees",
+            "sets": 0,
+            "reps": 5,
+            "benefit": "reduce stress"
+        },
+         {
+            "id": 16,
+            "name": "back-leg-lifts",
+            "thumb": "IMG/back-leg-lifts.gif",
+            "category": "Legs",
+            "text": "back-leg-lifts",
+            "sets": 0,
+            "reps": 5,
+            "benefit": "reduce stress"
+        },
+         {
+            "id": 17,
+            "name": "ankle-hops",
+            "thumb": "IMG/ankle-hops.gif",
+            "category": "Legs",
+            "text": "ankle-hops",
+            "sets": 0,
+            "reps": 5,
+            "benefit": "reduce stress"
+        },
+         {
+            "id": 18,
+            "name": "around-the-worlds",
+            "thumb": "IMG/around-the-worlds.gif",
+            "category": "Abs",
+            "text": "around-the-worlds",
+            "sets": 0,
+            "reps": 5,
+            "benefit": "reduce stress"
+        },
+         {
+            "id": 19,
+            "name": "pilates-swimming",
+            "thumb": "IMG/pilates-swimming.gif",
+            "category": "Abs",
+            "text": "pilates-swimming",
+            "sets": 0,
+            "reps": 5,
+            "benefit": "reduce stress"
+        },
+         {
+            "id": 20,
+            "name": "split-squat-curl",
+            "thumb": "IMG/split-squat-curl.gif",
+            "category": "Abs",
+            "text": "split-squat-curl",
+            "sets": 0,
+            "reps": 5,
+            "benefit": "reduce stress"
+        },
     ]
 }
